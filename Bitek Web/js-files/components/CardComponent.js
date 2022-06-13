@@ -9,9 +9,9 @@ const data = [
 function Card(props){
     return(
         <div className="col-12 col-lg-4 col-xl-4 col-xxl-3 card m-5 py-5">
-            <img src={props.img_src} className="card-img-top w-50" alt="image"/>
+            <img src={props.img_src} className="card-img-top w-50 mb-3" alt="image"/>
             <div className="card-body">
-                <h5 className="card-title text-center text-lg-start">{props.title}</h5>
+                <h5 className="card-title fw-bolder text-center text-lg-start">{props.title}</h5>
                 <p className="card-text">{props.desc}</p>
              </div>
         </div>
