@@ -5,3 +5,10 @@
     font-size: 30px;
     background-color: green;
 }
+#ul1 {
+    list-style-type: none;
+    display: inline;
+  }
+#li1 {
+    display: inline;
+  }
