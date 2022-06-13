@@ -1,1 +1,6 @@
-/* Styles for header component*/
+ #div1{
+    height: auto;
+    color: white;
+    font-size: 30px;
+    background-color: green;
+}
