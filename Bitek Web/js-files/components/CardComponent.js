@@ -2,7 +2,8 @@ const data = [
     { id:1, img_src: "./resources/images/sample.jpg", title:"IT help 1", desc:"Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes." },
     { id:2, img_src: "./resources/images/sample.jpg", title:"IT help 2", desc:"Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes." },
     { id:3, img_src: "./resources/images/sample.jpg", title:"IT help 3", desc:"Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes." },
-    { id:4, img_src: "./resources/images/sample.jpg", title:"IT help 4", desc:"Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes." }
+    { id:4, img_src: "./resources/images/sample.jpg", title:"IT help 4", desc:"Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes." },
+    { id:5, img_src: "./resources/images/sample.jpg", title:"IT help 5", desc:"Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes." }
   ];
 
 function Card(props){

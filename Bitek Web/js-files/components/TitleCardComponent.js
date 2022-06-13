@@ -10,7 +10,7 @@ function TitleCard(props){
             <div className="content-section col-lg-6" style={{"display":"flex", "flex-direction":"column"}}>
                 <h2 className="card-title text-center text-lg-start h1">{props.title}</h2>
                 <p className="card-text">{props.desc}</p>
-                <a className="btn btn-primary" href={props.link}>{props.link_name}</a>
+                <a className="btn btn-lg btn-primary" href={props.link}>{props.link_name}</a>
              </div>
              <div className="image-section col-lg-6">
                 <img src={props.img_src} alt="image"/>
