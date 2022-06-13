@@ -1,6 +1,6 @@
 let header_heading = "Header Component - Heading"
 let header_description = "Header Component - description of the heading"
-let header_home = ".homepage.html"
+let header_home = "homepage.html"
 
 
 
