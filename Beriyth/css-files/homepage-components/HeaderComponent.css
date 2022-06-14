@@ -29,7 +29,7 @@
   background-image: url('../../resources/images/bg5.jpg');
   /* background-position: center;  */
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
