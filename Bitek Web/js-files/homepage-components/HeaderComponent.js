@@ -1,5 +1,5 @@
-let header_heading = "Bitek Web Technologies"
-let header_description = "We make your life easier"
+let header_heading = "Beriyth Info Tech"
+let header_description = "Simple creating opportunities and enabling prosperity"
 
 
 

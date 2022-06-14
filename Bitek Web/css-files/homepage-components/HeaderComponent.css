@@ -8,21 +8,35 @@
   font-size: 4rem;
   color: midnightblue;
   font-weight: bolder;
+  text-shadow: 2px 2px #ffffff;
+
+  animation-name: catchy;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 #header-content p{
   text-align: center;
   font-size: 1.5rem;
   font-style: italic;
-  color: white;
+  color: darkgreen;
+  font-weight: bold;
 }
 
 
 #header{
   height: 50vh;
-  background-color:hsla(359,100%,80%,1);
-  background-image: linear-gradient(to bottom right, #0008f8,#ffffff, #ffffff,#ff0000,#ff0000,#ff0000);
+  background-image: url('../../resources/images/bg5.jpg');
+  /* background-position: center;  */
+  background-repeat: no-repeat;
+  background-size: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@keyframes catchy {
+  0%   {transform: scale(1.0,1.0);}
+  50%  {transform: scale(1.05,1.05);}
+  100% {transform: scale(1.0,1.0);}
 }
