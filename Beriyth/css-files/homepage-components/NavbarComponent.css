@@ -1,0 +1,30 @@
+/* styles for navbar */
+nav{
+    position: sticky;
+    width: 100%;
+    height: 10vh;
+    top: 0vh;
+    z-index: 1000;
+}
+
+.navbar{
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand, .nav-link{
+    font-weight: bold;
+    color:  black!important;
+    font-size: 1.5rem;
+}
+
+
+
+.navbar-brand img{
+    max-height: 10vh;
+}
+
+.navbar-toggler{
+    background-color: white;
+    border: 5px solid black;
+}
