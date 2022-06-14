@@ -1,4 +1,4 @@
-let header_heading = "Beriyth Info Tech"
+let header_heading = "Beriyth InfoTech"
 let header_description = "Simple creating opportunities and enabling prosperity"
 
 function HeaderComponent(){
