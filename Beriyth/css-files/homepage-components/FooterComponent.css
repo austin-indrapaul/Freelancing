@@ -7,13 +7,17 @@ footer{
     color:white;
 }
 
+#footer-content{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
 #contact-section{
-  margin:2vh 2vw;
   display: flex;
   flex-direction: row;
   justify-content:center;
 }
 #contact-section a{
-  margin:2vh 2vw;
   text-decoration: none;
 }

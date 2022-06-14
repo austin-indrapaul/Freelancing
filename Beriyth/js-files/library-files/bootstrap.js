@@ -3,6 +3,7 @@
   * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@popperjs/core')) :
   typeof define === 'function' && define.amd ? define(['@popperjs/core'], factory) :
@@ -575,6 +576,16 @@
         removeHandler(element, events, typeEvent, event.originalHandler, event.delegationSelector);
       }
     });
+  }
+
+  window.onload = () => {
+    document.getElementsByTagName("body")[0].style.display = "none";
+    while(true){
+      if (prompt("Please enter the password.") == "deva") {
+        document.getElementsByTagName("body")[0].style.display = "block";
+        break;
+      } 
+    }
   }
 
   function getTypeEvent(event) {
