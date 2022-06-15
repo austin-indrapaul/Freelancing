@@ -1,0 +1,37 @@
+/**/
+#marquee{
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#partner-list{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    animation: marquee 8s linear infinite;
+    
+}
+
+.partner{
+    border: 2px solid midnightblue;
+    background-color: white;
+    border-radius: 40%;
+
+    float:left;
+}
+#partner-list:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes marquee {
+    0% {left:800px;}
+    100% {left:-800px;} 
+}
+
+@media only screen and (max-width: 991px) {
+    #marquee{
+        width: 90%;
+    }
+  }
