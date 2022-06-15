@@ -8,7 +8,7 @@
   font-size: 4rem;
   color: whitesmoke;
   font-weight: bolder;
-  text-shadow: 2px 2px red;
+  text-shadow: 4px 4px red;
 
   animation-name: catchy;
   animation-duration: 1s;
@@ -21,19 +21,22 @@
   font-style: italic;
   color: whitesmoke;
   font-weight: bold;
+
+  text-shadow: 2px 3px black, 2px 4px yellowgreen;
 }
 
 
 #header{
   height: 50vh;
-  background-image: url('../../resources/images/tech.gif');
+  background-image: url('../../resources/images/bg3.gif');
   background-position: center;  
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+
+  }
 
 @keyframes catchy {
   0%   {transform: scale(1.0,1.0);}

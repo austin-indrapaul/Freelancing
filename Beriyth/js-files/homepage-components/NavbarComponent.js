@@ -1,4 +1,17 @@
 
+const data = [
+    { id:1, link_name:"Home", link:"#", active:true },
+    { id:2, link_name:"About Us", link:"#", active:false }
+];
+
+function Link(props){
+    const class_list = props.active ?"nav-link active":"nav-link";
+    return(
+        <li className="nav-item">
+            <a className={class_list} href={props.link}>{props.link_name}</a>
+        </li>
+    );
+}
 
 function NavbarComponent(){
     return (   
@@ -12,15 +25,9 @@ function NavbarComponent(){
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
-                    <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href="#">Features</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href="#">Pricing</a>
-                    </li>
+                    {data.map(item => (
+                        <Link key={item.id} link_name={item.link_name} link={item.link} active={item.active} />
+                    ))}
                 </ul>
                 </div>
             </div>
@@ -39,4 +46,4 @@ $("a[class^=\"nav-link\"]").click(function () {
       target.attr("aria-expanded","false");
       $("#navbarSupportedContent").removeClass("show");
     }
-  });
+});
