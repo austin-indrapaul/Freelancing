@@ -6,7 +6,7 @@ function FooterComponent(){
     return (   
         <div id="footer-content p-3">
 
-            <p style={{"text-align":"center"}}>Thank you for visiting our website</p>
+            <p style={{"textAlign":"center"}}>Thank you for visiting our website</p>
 
             <div id="contact-section">
                 <p id="email" className="mx-3">

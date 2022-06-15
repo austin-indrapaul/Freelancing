@@ -16,7 +16,7 @@ function TitleCard(props){
 
     return(
         <div className="title-card row m-5 py-5">     
-            <div className="content-section col-lg-6" style={{"display":"flex", "flex-direction":"column"}}>
+            <div className="content-section col-lg-6" style={{"display":"flex", "flexDirection":"column"}}>
                 <h2 className="text-center text-lg-start h1 mb-3">{props.title}</h2>
                 <p  dangerouslySetInnerHTML={{ __html: desc }} ></p>
                 {need_Link?( 

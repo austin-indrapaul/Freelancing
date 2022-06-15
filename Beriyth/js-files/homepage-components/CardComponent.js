@@ -21,7 +21,7 @@ function Card(props){
 
 function CardComponent(){
     return(
-        <div className="row" style={{"justify-content":"space-around"}}>
+        <div className="row" style={{"justifyContent":"space-around"}}>
             {data.map(item => (
                 <Card key={item.id} img_src={item.img_src} title={item.title} desc={item.desc} />
             ))}
