@@ -1,4 +1,5 @@
 body{
-    background-color: beige;
     overflow-x: hidden;
+    background-image: linear-gradient(to bottom, white,white,rgb(25, 158, 198),rgb(51, 247, 237));
+
 }

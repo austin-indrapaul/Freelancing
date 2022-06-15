@@ -6,7 +6,7 @@
 #header-content h1{
   text-align: center;
   font-size: 4rem;
-  color: midnightblue;
+  color: whitesmoke;
   font-weight: bolder;
   text-shadow: 2px 2px red;
 
@@ -19,15 +19,15 @@
   text-align: center;
   font-size: 1.5rem;
   font-style: italic;
-  color: darkgreen;
+  color: whitesmoke;
   font-weight: bold;
 }
 
 
 #header{
   height: 50vh;
-  background-image: url('../../resources/images/bg5.jpg');
-  /* background-position: center;  */
+  background-image: url('../../resources/images/tech.gif');
+  background-position: center;  
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

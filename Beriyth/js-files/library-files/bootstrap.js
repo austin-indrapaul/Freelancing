@@ -578,15 +578,15 @@
     });
   }
 
-  window.onload = () => {
-    document.getElementsByTagName("body")[0].style.display = "none";
-    while(true){
-      if (prompt("Please enter the password.") == "deva") {
-        document.getElementsByTagName("body")[0].style.display = "block";
-        break;
-      } 
-    }
-  }
+  // window.onload = () => {
+  //   document.getElementsByTagName("body")[0].style.display = "none";
+  //   while(true){
+  //     if (prompt("Please enter the password.") == "deva") {
+  //       document.getElementsByTagName("body")[0].style.display = "block";
+  //       break;
+  //     } 
+  //   }
+  // }
 
   function getTypeEvent(event) {
     // allow to get the native events from namespaced events ('click.bs.button' --> 'click')
