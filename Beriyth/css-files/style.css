@@ -1,4 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap'); */
+/*  font-family: 'Lobster Two', cursive;  */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap'); */
+/* font-family: 'Sofia', cursive; */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap'); */
+/* font-family: 'Atomic Age', cursive; */
+
+/* @import url('http://fonts.cdnfonts.com/css/anurati'); */
+/* font-family: 'Anurati', sans-serif; */
+
+/* @import url('http://fonts.cdnfonts.com/css/equinox'); */
+/* font-family: 'Equinox', sans-serif; */
+
+/* @import url('http://fonts.cdnfonts.com/css/nasalization-2'); */
+/* font-family: 'Nasalization', sans-serif; */
+
+@import url('http://fonts.cdnfonts.com/css/reckoner');
+/* font-family: 'Reckoner', sans-serif; */
+/* font-family: 'Reckoner Bold', sans-serif;   
+
+/* @import url('http://fonts.cdnfonts.com/css/himagsikan'); */
+/* font-family: 'Himagsikan', sans-serif; */
+
+                                                
+
+
 body{
     overflow-x: hidden;
-    background-image: linear-gradient(to bottom,rgb(139, 254, 243),rgb(255, 138, 232), rgb(255, 155, 119));
+    background-image: linear-gradient(to bottom,rgb(139, 254, 243),rgb(255, 138, 232), rgb(255, 155, 119));                                   
 }

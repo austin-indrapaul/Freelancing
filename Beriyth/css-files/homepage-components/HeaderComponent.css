@@ -5,7 +5,7 @@
 
 #header-content h1{
   text-align: center;
-  font-size: 4rem;
+  font-size: 6rem;
   color: whitesmoke;
   font-weight: bolder;
   text-shadow: 4px 4px red;
@@ -13,6 +13,8 @@
   animation-name: catchy;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+  
+  font-family: 'Reckoner Bold', sans-serif;  
 }
 
 #header-content p{
