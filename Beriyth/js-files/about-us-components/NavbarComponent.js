@@ -1,7 +1,7 @@
 
 const data = [
-    { id:1, link_name:"Home", link:"#", active:true },
-    { id:2, link_name:"About Us", link:"#", active:false }
+    { id:1, link_name:"Home", link:"./homepage.html", active:false },
+    { id:2, link_name:"About Us", link:"./about-us.hmtl", active:true }
 ];
 
 function Link(props){
