@@ -16,7 +16,7 @@
 /* @import url('http://fonts.cdnfonts.com/css/nasalization-2'); */
 /* font-family: 'Nasalization', sans-serif; */
 
-@import url('http://fonts.cdnfonts.com/css/reckoner');
+/* @import url('http://fonts.cdnfonts.com/css/reckoner'); */
 /* font-family: 'Reckoner', sans-serif; */
 /* font-family: 'Reckoner Bold', sans-serif;   
 
@@ -24,7 +24,10 @@
 /* font-family: 'Himagsikan', sans-serif; */
 
                                                 
-
+@font-face {
+    font-family: 'Reckoner Bold';
+    src: url("../resources/fonts/Reckoner_Bold.ttf");
+}
 
 body{
     overflow-x: hidden;
