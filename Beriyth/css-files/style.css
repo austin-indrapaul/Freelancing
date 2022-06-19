@@ -33,3 +33,40 @@ body{
     overflow-x: hidden;
     background-image: linear-gradient(to bottom,rgb(139, 254, 243),rgb(255, 138, 232), rgb(255, 155, 119));                                   
 }
+
+#loader-screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    opacity: 0.5;
+    position: relative;
+
+    padding:0;
+    margin: 0;
+}
+
+#loader{
+    padding:0;
+    margin: 0;
+    
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+    border: 20px;
+    border: 20px solid white;
+    border-top: 20px solid blue;;
+
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}

@@ -26,6 +26,10 @@
     />
   </head>
   <body>
+    <div id="loader-screen">
+      <div id="loader"></div>
+    </div>
+
     <!-- Navbar Component /.. -->
     <nav id="navbar"></nav>
     <script
@@ -122,5 +126,11 @@
       href="./css-files/homepage-components/FooterComponent.css"
     />
     <!-- ../ Footer end -->
+
+    <script>
+      $(document).ready(function () {
+        $("#loader-screen").hide();
+      });
+    </script>
   </body>
 </html>
